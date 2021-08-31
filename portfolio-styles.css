@@ -1,0 +1,84 @@
+*{
+    font-family: 'Cantarell',sans-serif;
+     font-size: 20px;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: sticky;
+    background-color:#191919;
+    top:0;
+    padding-bottom:  #07b5fa;
+}  
+.logo{
+  color:white;
+  font-size: 45px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: #07b5fa;
+  font-size: 40px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: #07b5fa;
+  transition: .4s;
+  transform: scale(1.1);
+}
+footer p{
+    font-family: 'calibri';
+
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color:  #07b5fa;
+    line-height: 10px;
+    margin-bottom: 13px;
+}
+footer p:nth-child(2){
+    font-size: 18px;
+    color:black;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(137, 207, 253, 0.945);
+    margin: 20px 10px;
+    border-radius: 50%;
+
+}
+.social-icons{
+    display: flex;
+}
+.social-icons i{
+    color:hotpink;
+
+}
+.social-icons a:hover{
+    background-color:whitesmoke;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0,2);
+    transition: all ease .5s;
+}
